@@ -5,7 +5,7 @@ string textoMaiusculo;
 Console.Clear();
 
 
-Console.WriteLine("Escreve um texto: ");
+Console.Write("Escreve um texto:  ");
 texto = Console.ReadLine()!;
 textoMaiusculo = texto.ToUpper();
 textoLeet = textoMaiusculo.Replace("A", "4")
